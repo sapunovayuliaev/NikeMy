@@ -1,0 +1,92 @@
+header {
+  background: url(../img/00.jpg);
+  height: 150px;
+}
+.logo {
+  height: 150px;
+  width: 200px;
+}
+.container {
+  width: 950px;
+  margin: auto;
+}
+nav {
+  float: right;
+  margin-top: 50px;
+}
+menu{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  float: left;
+  margin-right: 15px;
+
+}
+.menu li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+}
+section{
+  background-color: rgb(226, 226, 255);
+  height: 500px;
+}
+.title{
+  margin-top: 10px;
+}
+.title h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.title p{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.job img{
+  height: 250px;
+  weight: 250px;
+}
+.job{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+footer {
+  background: rgb(220, 220, 240);
+  height: 300px;
+}
+.work h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.button{
+  background: rgb(198, 198, 238);
+  color: black;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.work{
+  margin-top: 10px;
+}
+
+
